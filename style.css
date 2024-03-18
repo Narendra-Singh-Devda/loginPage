@@ -9,7 +9,7 @@ body {
     justify-content: center;
     height: 100vh;
     background: rgb(111,107,184);
-background: radial-gradient(circle, rgba(111,107,184,1) 11%, rgba(81,142,130,0.6502976190476191) 47%, rgba(0,212,255,1) 83%, rgba(15,32,36,1) 83%);
+background: linear-gradient(90deg, rgba(111,107,184,1) 11%, rgba(81,142,130,0.6502976190476191) 47%, rgba(0,212,255,1) 83%);
 }
 .userInput_From {
     display: flex;
