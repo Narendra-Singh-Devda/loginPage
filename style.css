@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(111,107,184);
+background: radial-gradient(circle, rgba(111,107,184,1) 11%, rgba(81,142,130,0.6502976190476191) 47%, rgba(0,212,255,1) 83%, rgba(15,32,36,1) 83%);
+}
+.userInput_From {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border: 1px solid #000;
+    width: 400px;
+    border-radius: 16px;
+    padding: 24px;
+    background-image: url("/network-connection-background-abstract-style_23-2148875738.avif");
+    background-position: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+}
+.input_Details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+.input_Details label {
+    font-size: 18px;
+}
+
+.input_Details input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 8px;
+    height: 34px;
+}
